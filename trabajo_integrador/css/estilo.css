@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu{
+    background-color: #353a40;
+}
+.nav-item{
+    color: white;
+    font-size: 20px;
+}
+
+
+#conferencia{
+    height: 900px;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/trabajo_integrador/img/ba1.jpg);   
+}
+
+.textoInformativo{
+    color: white;
+    text-align: right;
+}
+
+.tituloInformativo{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.parrafoInformativo{
+    font-size: 20px;
+}
+
+#boton-tickets{
+    background-color: #29a744;
+    border-color: #29a744;
+}
+
+.btn{
+    margin: auto;
+}
+
+#oradores-titulo{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    
+}
+#oradores-titulo span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#oradores-cards{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.contenedor-badge{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.badge-react.text{
+    color: white;
+}
+
+#locacion{
+    height: 700px;
+    background-color: #353a40;
+}
+
+#locacion-foto{
+    background-image: url(/trabajo_integrador/img/honolulu.jpg);
+    background-size:cover;
+}
+
+#locacion-texto-titulo, #locacion-texto-parrafo{
+    text-align: left;
+}
+#datos-personales{
+    display:flex;
+}
+
+#enviar-formulario{
+    border-color: #96c93e;
+    background-color: #96c93e;
+}
+
+#pie{
+    background: rgb(29,55,68);
+    background: linear-gradient(90deg, rgba(29,55,68,1) 0%, rgba(30,83,114,1) 100%);
+    height:120px;
+}
